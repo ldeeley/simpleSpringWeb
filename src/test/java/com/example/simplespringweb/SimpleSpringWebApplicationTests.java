@@ -10,4 +10,9 @@ class SimpleSpringWebApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void shouldReturnTrue(){
+        assert (true);
+    }
+
 }
